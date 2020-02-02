@@ -14,8 +14,8 @@
 // limitations under the License.
 
 cc_binary {
-    name: "vendor.mokee.touch@1.0-service.realme_sdm710",
-    init_rc: ["vendor.mokee.touch@1.0-service.realme_sdm710.rc"],
+    name: "vendor.lineage.touch@1.0-service.realme_sdm710",
+    init_rc: ["vendor.lineage.touch@1.0-service.realme_sdm710.rc"],
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
     vendor: true,
@@ -26,6 +26,6 @@ cc_binary {
         "libhidlbase",
         "libhidltransport",
         "libutils",
-        "vendor.mokee.touch@1.0",
+        "vendor.lineage.touch@1.0",
     ],
 }
